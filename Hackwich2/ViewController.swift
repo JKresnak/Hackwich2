@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func PressMeButtonpressed(_ sender: Any) {
+    @IBAction func PressMeButtonpressed(_ sender: Any)
+    
+    {
+    print("\"say, Hello World\"")
+    
     }
-}
-do {
-print("\"say, Hello World\"")
-
 }
