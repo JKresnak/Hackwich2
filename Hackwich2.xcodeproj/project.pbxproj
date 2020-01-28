@@ -78,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				7F6D540B23E0C59F00C9BD6F /* Hackwich2 */,
-				7F6D542023E0C5A000C9BD6F /* Hackwich2Tests */,
 				7F6D542B23E0C5A100C9BD6F /* Hackwich2UITests */,
 				7F6D540A23E0C59F00C9BD6F /* Products */,
 			);
@@ -97,6 +96,7 @@
 		7F6D540B23E0C59F00C9BD6F /* Hackwich2 */ = {
 			isa = PBXGroup;
 			children = (
+				7F6D542023E0C5A000C9BD6F /* Hackwich2Tests */,
 				7F6D540C23E0C59F00C9BD6F /* AppDelegate.swift */,
 				7F6D540E23E0C59F00C9BD6F /* ViewController.swift */,
 				7F6D541023E0C59F00C9BD6F /* Main.storyboard */,

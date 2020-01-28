@@ -20,5 +20,12 @@ class ViewController: UIViewController {
     {
     print("\"say, Hello World\"")
     
+        }
+    
+    @IBAction func ButtonPress2(_ sender: Any)
+    {
+    print("\"say. Goodbye Cruel World\"")
     }
 }
+
+
