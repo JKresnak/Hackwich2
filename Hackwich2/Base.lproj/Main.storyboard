@@ -41,7 +41,9 @@
                                 <rect key="frame" x="36" y="222" width="302" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="Segue Push"/>
+                                <state key="normal" title="Segue Push">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.081321229716778021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="qwH-94-dgi" kind="show" id="HuH-e8-eGf"/>
                                 </connections>
@@ -55,20 +57,37 @@
             </objects>
             <point key="canvasLocation" x="-82.400000000000006" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Secondviewcontroller View Controller-->
         <scene sceneID="wgK-gW-cPk">
             <objects>
-                <viewController id="qwH-94-dgi" sceneMemberID="viewController">
+                <viewController id="qwH-94-dgi" customClass="SecondviewcontrollerViewController" customModule="Hackwich2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GaY-SD-WTn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8p4-ni-ZoM">
+                                <rect key="frame" x="130" y="75" width="115" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-Oo-CEx">
+                                <rect key="frame" x="105" y="354" width="164" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ChangeColorButton"/>
+                                <connections>
+                                    <action selector="ChangeColorButtonPress:" destination="qwH-94-dgi" eventType="touchUpInside" id="oV1-2E-ZpD"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3yq-X1-KHr"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M3u-hh-lMV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="553" y="134"/>
+            <point key="canvasLocation" x="552.79999999999995" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
